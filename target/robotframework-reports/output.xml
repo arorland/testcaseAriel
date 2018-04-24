@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 2.8.1 (Jython 2.5.3 on java1.8.0_161)" generated="20180424 10:42:19.044">
+<suite source="C:\Users\hp\Desktop\robot Framework\testGoogle1\testcasesManzana\src\test\robotframework\acceptance" name="Acceptance" id="s1">
+<suite source="C:\Users\hp\Desktop\robot Framework\testGoogle1\testcasesManzana\src\test\robotframework\acceptance\corre.robot" name="Corre" id="s1-s1">
+<test name="[1] Click Home" id="s1-s1-t1">
+<kw type="kw" name="Open Web">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="SeleniumLibrary.Open Browser">
+<doc>Opens a new browser instance to given URL.&lt;br&gt;</doc>
+<arguments>
+<arg>${WEB}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg level="INFO" timestamp="20180424 10:42:20.138">browserName: chrome</msg>
+<msg level="INFO" timestamp="20180424 10:42:20.138">Opening browser 'chrome' to base url 'https://www.google.com/'</msg>
+<msg level="DEBUG" timestamp="20180424 10:42:30.197">Opened browser with session id 1</msg>
+<msg level="INFO" timestamp="20180424 10:42:30.201">chrome</msg>
+<msg level="INFO" timestamp="20180424 10:42:30.205">Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 44387
+Only local connections are allowed.</msg>
+<status endtime="20180424 10:42:30.218" starttime="20180424 10:42:20.123" status="PASS"></status>
+</kw>
+<kw type="kw" name="SeleniumLibrary.Maximize Browser Window">
+<doc>Maximizes current browser window.&lt;br&gt;</doc>
+<arguments>
+</arguments>
+<status endtime="20180424 10:42:31.499" starttime="20180424 10:42:30.233" status="PASS"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Set Suite Metadata">
+<doc>Sets metadata for the current test suite.</doc>
+<arguments>
+<arg>Link to my cool external site</arg>
+<arg>http://www.external.com</arg>
+<arg>top=True</arg>
+</arguments>
+<msg level="INFO" timestamp="20180424 10:42:31.599">Set suite metadata 'Link to my cool external site' to value 'http://www.external.com'.</msg>
+<status endtime="20180424 10:42:31.599" starttime="20180424 10:42:31.511" status="PASS"></status>
+</kw>
+<status endtime="20180424 10:42:31.603" starttime="20180424 10:42:20.123" status="PASS"></status>
+</kw>
+<kw type="kw" name="Close Web">
+<doc></doc>
+<arguments>
+</arguments>
+<kw type="kw" name="SeleniumLibrary.Close Window">
+<doc>Closes the currently open pop-up window.</doc>
+<arguments>
+</arguments>
+<status endtime="20180424 10:42:34.337" starttime="20180424 10:42:31.611" status="PASS"></status>
+</kw>
+<status endtime="20180424 10:42:34.353" starttime="20180424 10:42:31.607" status="PASS"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status critical="yes" endtime="20180424 10:42:34.353" starttime="20180424 10:42:20.107" status="PASS"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status endtime="20180424 10:42:34.697" starttime="20180424 10:42:19.263" status="PASS"></status>
+</suite>
+<doc></doc>
+<metadata>
+<item name="Link to my cool external site">http://www.external.com</item>
+</metadata>
+<status endtime="20180424 10:42:34.712" starttime="20180424 10:42:19.044" status="PASS"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" name="Acceptance" id="s1">Acceptance</stat>
+<stat pass="1" fail="0" name="Corre" id="s1-s1">Acceptance.Corre</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
